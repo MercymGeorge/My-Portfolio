@@ -1,0 +1,127 @@
+:root{
+    --box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    --major-color: #6c63ff;
+}
+
+body {
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+
+h1{
+    font-size: 90px;
+    
+}
+
+h2{
+    font-size: 50px;
+   
+}
+
+h3{
+    font-size: 22px;
+    opacity: 1;
+}
+
+
+.navigate{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.navigate a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .about-paragraphs {
+    margin: 30px 0;
+
+  }
+
+ 
+  
+  .contact-me {
+    background: var(--major-color);
+    box-shadow: var(--box-shadow);
+    color: whitesmoke;
+    
+  }
+
+  .contact-me:hover {
+   background-color: aquamarine;
+  
+  }
+  
+  .about-me{
+    color: var(--major-color);
+    border: 1px solid  var(--major-color);
+  }
+
+  .about-me:hover {
+    background-color: aquamarine;
+   
+   }
+
+
+  .email {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .email:hover {
+    text-decoration: underline;
+    color:  aquamarine;
+  }
+  
+ 
+
+  .primary-link{
+    background: var(--major-color);
+    box-shadow: var(--box-shadow);
+    color: whitesmoke;
+   border-radius: 4px;
+   padding: 20px 15px;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+    
+  .heading{
+    text-align: center;
+  }
+
+  .margin-contact{
+    text-align: center;
+  }
+
+  .about{
+    text-align: center;
+  }
+
+  
